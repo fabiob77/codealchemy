@@ -1,0 +1,15 @@
+# npm registry configuration template
+# Copy to ~/.npmrc and replace with your actual token
+
+# Default registry
+registry=https://registry.npmjs.org/
+
+# Authentication token (get from https://npmjs.com/settings/tokens)
+//registry.npmjs.org/:_authToken=YOUR_NPM_TOKEN_HERE
+
+# Optional: Scoped registry
+@codealchemy:registry=https://registry.npmjs.org/
+
+# Settings
+always-auth=true
+email=your-email@example.com

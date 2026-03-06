@@ -1,0 +1,31 @@
+﻿{
+  "name": "@codealchemy/common",
+  "version": "1.0.0",
+  "description": "Common utilities and GitHub integration for CodeAlchemy",
+  "author": "CodeAlchemy Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/CodeAlchemy.git",
+    "directory": "common"
+  },
+  "keywords": [
+    "utilities",
+    "github-integration",
+    "common"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bunx tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+
+
+
+

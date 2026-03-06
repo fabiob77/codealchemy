@@ -1,0 +1,30 @@
+﻿{
+  "name": "@codealchemy/agents",
+  "version": "1.0.0",
+  "description": "Agent definitions for CodeAlchemy AI coding assistant",
+  "author": "CodeAlchemy Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiob77/CodeAlchemy.git",
+    "directory": "agents"
+  },
+  "keywords": [
+    "agents",
+    "ai",
+    "multi-agent",
+    "orchestration"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "bunx tsc"
+  },
+  "dependencies": {
+    "@codealchemy/common": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+

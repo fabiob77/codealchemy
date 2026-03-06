@@ -1,0 +1,16 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "&": true,
+        "npm install": true,
+        "npx tsc": true,
+        "bun": true,
+        "bunx": true,
+        "ForEach-Object": true,
+        "Set-Content": true,
+        "/^node test-multi-agent\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
+

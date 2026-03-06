@@ -1,0 +1,17 @@
+﻿{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    // add DOM lib in addition to base
+    "lib": ["ES2017", "DOM"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    // still need node types here if required
+    "types": ["node"]
+  },
+  "include": ["src/**/*"]
+}
+
+
+
+

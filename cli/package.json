@@ -1,0 +1,41 @@
+﻿{
+  "name": "@codealchemy/cli",
+  "version": "1.0.0",
+  "description": "CLI for CodeAlchemy AI coding assistant with multi-agent orchestration",
+  "author": "CodeAlchemy Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiob77/codealchemy.git",
+    "directory": "cli"
+  },
+  "keywords": [
+    "ai",
+    "coding",
+    "assistant",
+    "cli",
+    "code-generation",
+    "multi-agent"
+  ],
+  "bin": {
+    "CodeAlchemy": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bunx tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@codealchemy/sdk": "workspace:*",
+    "@codealchemy/common": "workspace:*",
+    "commander": "^12.0.0",
+    "chalk": "^5.0.0",
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+

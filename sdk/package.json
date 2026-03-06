@@ -1,0 +1,33 @@
+﻿{
+  "name": "@codealchemy/sdk",
+  "version": "1.0.0",
+  "description": "SDK for CodeAlchemy AI coding assistant with multi-agent orchestration",
+  "author": "CodeAlchemy Contributors",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/CodeAlchemy.git",
+    "directory": "sdk"
+  },
+  "keywords": [
+    "ai",
+    "sdk",
+    "code-assistant",
+    "multi-agent"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bunx tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@codealchemy/common": "workspace:*",
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0"
+  }
+}

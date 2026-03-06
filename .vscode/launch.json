@@ -1,0 +1,23 @@
+﻿{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Web",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/web/node_modules/.bin/next",
+      "args": ["dev"],
+      "cwd": "${workspaceFolder}/web",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug CLI",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/cli/src/index.ts",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
+

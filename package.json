@@ -1,0 +1,29 @@
+﻿{
+  "name": "CodeAlchemy",
+  "version": "1.0.0",
+  "description": "Advanced AI coding assistant with multi-agent orchestration, web UI, and GitHub integrations.",
+  "private": true,
+  "workspaces": [
+    "cli",
+    "sdk",
+    "web",
+    "agents",
+    "common"
+  ],
+  "scripts": {
+    "build": "bun run build --filter '*'",
+    "dev": "bun run dev --filter '*'",
+    "test": "bun test",
+    "lint": "bun run lint --filter '*'"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "bun@1.0.0"
+}

@@ -1,0 +1,5 @@
+﻿[install]
+# Use bunx for workspace dependencies
+
+[packages]
+"@codealchemy/*" = { workspace = true }
