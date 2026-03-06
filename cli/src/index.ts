@@ -29,7 +29,7 @@ program
       });
       console.log(chalk.green('Task completed:'), result);
     } catch (error) {
-      console.error(chalk.red('Error:'), error.message);
+      console.error(chalk.red('Error:'), error instanceof Error ? error.message : String(error));
     }
   });
 

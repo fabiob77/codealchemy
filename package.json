@@ -11,10 +11,10 @@
     "common"
   ],
   "scripts": {
-    "build": "bun run build --filter '*'",
-    "dev": "bun run dev --filter '*'",
+    "build": "bun run --filter '@codealchemy/*' build",
+    "dev": "bun run --filter '@codealchemy/*' dev",
     "test": "bun test",
-    "lint": "bun run lint --filter '*'"
+    "lint": "bun run --filter '@codealchemy/*' lint"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
